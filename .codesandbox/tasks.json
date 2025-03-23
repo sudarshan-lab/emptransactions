@@ -1,0 +1,16 @@
+{
+  "setupTasks": [
+    {
+      "command": "cd ramp-fe-challenge && npm install",
+      "name": "setup"
+    }
+  ],
+
+  "tasks": {
+    "start": {
+      "name": "start",
+      "command": "cd ramp-fe-challenge && npm start",
+      "runAtStart": true
+    }
+  }
+}
